@@ -1,0 +1,73 @@
+.dashboard-page {
+    display: flex;
+  }
+  
+  .dashboard-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f4f4f9;
+  }
+  
+  .overview-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .overview-card {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 23%;
+  }
+  
+  .ongoing-delivery-section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .shipment-item {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .selected {
+    border: 2px solid #007bff;
+  }
+  
+  .map-details {
+    margin-top: 20px;
+  }
+  
+  .tracking-order-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tracking-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .tracking-table th, .tracking-table td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .tracking-table th {
+    background-color: #f4f4f9;
+  }
+  
+  .tracking-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  

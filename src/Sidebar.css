@@ -1,0 +1,132 @@
+.sidebar {
+    width: 240px;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.05);
+}
+  
+.sidebar-header {
+    margin-bottom: 30px;
+}
+  
+.sidebar-logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+  
+.user-info {
+    display: flex;
+    align-items: center;
+}
+  
+.user-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+  
+.user-details {
+    display: flex;
+    flex-direction: column;
+}
+  
+.user-name {
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+}
+  
+.user-plan {
+    color: #888;
+    font-size: 14px;
+}
+  
+.sidebar-menu {
+    flex-grow: 1;
+}
+  
+.menu-heading {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+  
+.menu-item {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding: 10px 0;
+    cursor: pointer;
+    color: #333;
+    transition: color 0.2s ease;
+}
+  
+.menu-item:hover {
+    color: #007bff;
+}
+  
+.menu-icon {
+    margin-right: 10px;
+    font-size: 18px;
+}
+  
+.menu-notification {
+    background-color: #ff4d4f;
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 12px;
+    margin-left: auto;
+}
+  
+.active {
+    background-color: #f0f8ff;
+    color: #007bff;
+    border-radius: 8px;
+}
+  
+.sidebar-footer {
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+  
+.plan-upgrade {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+}
+  
+.plan-icon {
+    font-size: 24px;
+    color: #007bff;
+    margin-right: 10px;
+}
+  
+.upgrade-text {
+    font-size: 14px;
+    color: #333;
+}
+  
+.manage-plan-btn {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px 0;
+    text-align: left;
+}
+  
+.manage-plan-btn:hover {
+    text-decoration: underline;
+}

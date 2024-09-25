@@ -1,0 +1,102 @@
+.tracking-order-section {
+  background-color: white;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  max-width: 1200px;
+}
+
+.tracking-order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.tracking-order-header h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.tracking-order-actions {
+  display: flex;
+  align-items: center;
+}
+
+.search-box {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-right: 15px;
+  font-size: 14px;
+}
+
+.filter-btn, .export-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.filter-btn:hover, .export-btn:hover {
+  background-color: #0056b3;
+}
+
+.tracking-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tracking-table th, .tracking-table td {
+  padding: 12px 15px;
+  text-align: left;
+  font-size: 14px;
+  color: #333;
+}
+
+.tracking-table th {
+  background-color: #f8f8f9;
+  font-weight: 600;
+  color: #666;
+  font-size: 14px;
+}
+
+.tracking-table td {
+  font-size: 14px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.tracking-table tr:hover {
+  background-color: #f2f2f2;
+}
+
+.tracking-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.status {
+  padding: 6px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  color: white;
+}
+
+.delivered {
+  background-color: #28a745;
+}
+
+.pending {
+  background-color: #ffc107;
+}
+
+.shipping {
+  background-color: #17a2b8;
+}
